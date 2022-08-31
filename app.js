@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/blogDB")
+mongoose.connect("mongodb+srv://bmuppalla1:Bhargav%40143@cluster0.bvcmanr.mongodb.net/blogDB")
 
 const blogSchema = {
   Title: String,
@@ -98,6 +98,6 @@ app.post("/compose", function(req, res) {
 
 
 
-app.listen(3001, function() {
+app.listen(process.ENV.PORT || 3001, function() {
   console.log("Server started on port 3001");
 });
