@@ -1,6 +1,8 @@
 # Blog-Site
 A Blog Website where you can Compose and read posts. This is a personal project to demonstrate my skills in developing full stack applications.
+
 The Front-End of this site is developed using HTML, CSS, JavaScript, EJS.
+
 The Back-End is developed using Node JS, Express JS.
 
 MongoDB is used for data storage.
